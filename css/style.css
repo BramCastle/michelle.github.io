@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 1085px;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -444,6 +444,10 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 50%;
   float: left;
   margin-bottom: 30px;
+}
+
+.event-image {
+  width: 100% !important;
 }
 
 #fh5co-counter {
