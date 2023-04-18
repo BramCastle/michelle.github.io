@@ -18,6 +18,16 @@
 
 	};
 
+	const urlParams = new URLSearchParams(window.location.search);
+	var nombre = urlParams.get('nombre');
+	const invitados = urlParams.get('invited');
+
+	nombre = nombre?.split("-").join(" ");
+	console.log(nombre);
+	console.log(invitados);
+	document.getElementById("nombreCompleto").innerHTML = nombre;
+	document.getElementById("invited").innerHTML = `Personas: ${invitados}`;
+
 
 	var offcanvasMenu = function() {
 
